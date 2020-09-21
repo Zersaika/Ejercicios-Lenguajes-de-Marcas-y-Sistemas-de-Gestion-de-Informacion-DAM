@@ -1,0 +1,33 @@
+rss {
+display: block;
+font-family: verdana, arial;
+margin:0;
+padding:0;
+background: rgb(34, 51, 68);
+}
+title {
+font-size: 25px;
+display: block;
+margin: 5px;
+padding: 2px;
+color: #FFF;
+border-bottom: 1px solid #334455;
+}
+link {
+display: block;
+font-size: small;
+padding-left: 10px;
+color: #FFF;
+}
+item {
+display: block;
+padding: 2px 30px 2px 30px;
+}
+description{
+    color: #FFF;
+}
+
+/* all hidden elements */
+language, lastBuildDate, ttl, guid, category, description, pubDate {
+display: none;
+}

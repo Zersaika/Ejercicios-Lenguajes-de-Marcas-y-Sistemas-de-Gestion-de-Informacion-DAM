@@ -1,0 +1,242 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+margin:0;
+padding:0;
+background: rgb(34, 51, 68);
+;
+
+}
+#container{
+    width: 1400px;
+    font-family: arial, helvetica, sans-serif;
+     margin: auto;
+}
+
+
+h1{
+    color: #FFF;
+}
+h2{
+    text-align: center;
+    color: #FFF;
+}
+h3{
+    color: #334455;
+    font-size: small;
+}
+nav{
+ width: 1400px;
+ display: block;
+
+ height: 50px;
+ position: relative;
+ font-size: 13px;
+ border-left-width: 0px;
+ border-right-width: 0px;
+ background: #112233;
+ padding-bottom: 10px;
+ border-bottom: 1px solid #334455;
+ border-left: 1px solid #334455;
+ border-right: 1px solid #334455;
+ padding-bottom: 10px;
+ padding-top: 5px;
+ 
+ 
+}
+nav ul{
+ list-style: none;
+ padding-top: 10px;
+ position: relative;
+ background: #112233;
+}
+nav ul li{
+ float: left;
+ width: 110px;
+ padding-left: 5px;
+ padding-right: 5px;
+ text-align: center;
+ background: #112233;
+ 
+}
+nav ul li a{
+
+ display: block;
+ padding-top: 8px;
+ padding-bottom: 8px;
+ color: #FFF;
+ text-decoration: none;
+ background: #112233;
+}
+nav ul li a img{
+    background: #112233;
+}
+nav ul li a:hover{
+color: #2D9DE1;
+}
+header{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: block;
+    width: 960px;
+    
+}
+header .titulo{
+    float: right;
+    text-align: center;
+    color:#FFF;
+    padding-right: 600px;
+    padding-top: 35px;
+    
+}
+header .logo{
+    float:left;
+    padding-left: 50px;
+    width: 125px;
+}
+header .logo img{
+    width: 100%;
+}
+
+section{
+    display: block;
+    float:left;
+    margin-left: 10%;
+    min-width: 550px;
+    height: 1490px;
+}
+
+section .noticia1{
+    width: 400px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    color: #FFF;
+    margin: auto;
+}
+section .noticia1 .cuerpo1{
+    font-size: small;
+}
+section .noticia1 .imagen{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+section .noticia1 .imagen img{
+    width: 400px;
+    border: 4px solid #334455;
+}
+section .noticia2{
+    width: 400px;
+    padding-bottom: 50px;
+    color: #FFF;
+    margin: auto;
+    
+}
+section .noticia2 .cuerpo2{
+    font-size: small;
+}
+section .noticia2 .imagen{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+section .noticia2 .imagen img{
+    width: 400px;
+    border: 4px solid #334455;
+}
+section .noticia3{
+    width: 400px;
+    padding-bottom: 50px;
+    color: #FFF;
+    margin: auto;
+   
+}
+section .noticia3 .cuerpo3{
+    font-size: small;
+}
+section .noticia3 .imagen{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+section .noticia3 .imagen img{
+    width: 400px;
+    border: 4px solid #334455;
+}
+aside{
+    display: block;
+    float: right;
+    margin-right: 10%;
+   min-width: 550px;
+}
+aside .noticia1{
+    width: 400px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    color: #FFF;
+    margin: auto;
+}
+aside .noticia1 .cuerpo1{
+    font-size: small;
+}
+aside .noticia1 .imagen{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+aside .noticia1 .imagen img{
+    width: 400px;
+    border: 4px solid #334455;
+}
+aside .noticia2{
+    width: 400px;
+    padding-bottom: 50px;
+    color: #FFF;
+    margin: auto;
+    
+}
+aside .noticia2 .cuerpo2{
+    font-size: small;
+}
+aside .noticia2 .imagen{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+aside .noticia2 .imagen img{
+    width: 400px;
+    border: 4px solid #334455;
+}
+aside .noticia3{
+    width: 400px;
+    padding-bottom: 50px;
+    color: #FFF;
+    margin: auto;
+   
+}
+aside .noticia3 .cuerpo3{
+    font-size: small;
+}
+aside .noticia3 .imagen{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+aside .noticia3 .imagen img{
+    width: 400px;
+    border: 4px solid #334455;
+}
+
+footer{
+    float: left;
+    padding-top: 300px;
+    padding-left: 150px;
+    padding-bottom: 100px;
+    
+}
+footer .copyright{
+    
+}
+

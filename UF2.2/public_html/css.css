@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/* CSS Document */
+body { 
+  background: rgb(34, 51, 68); 
+  font-family: 'Roboto Slab', serif;
+  text-align: justify;
+}
+
+h1 { 
+    text-align: center; 
+    text-transform: uppercase; 
+    font-size: 125%;
+    color: #fff;
+}
+
+fieldset { 
+  margin: 10px 20px; 
+}
+
+fieldset legend { 
+  background-color: white; 
+  border: solid black 3px; 
+  padding: 0px 5px;  
+}
+
+fieldset#datospersonales { 
+ background-color: white;  
+}
+
+fieldset#datospersonales legend { 
+ background-color: white; 
+}
+
+fieldset#requisitos { 
+ background-color: white; 
+}
+
+fieldset#requisitos legend { 
+ background-color: white;
+}
+
+fieldset#solicitud { 
+  background-color: white;  
+}
+
+fieldset#solicitud legend { 
+  background-color: white;  
+}
+
+fieldset#documentacionpresentada { 
+  background-color: white; 
+}
+
+fieldset#documentacionpresentada legend { 
+background-color: white;
+}
+
+fieldset#comunicacion { 
+  background-color: white;
+}
+
+fieldset#comunicacion legend { 
+   
+  background-color: white;
+}
+
+p { 
+  margin: 0px; 
+}
+
+div#firma { 
+  height: 8em; 
+  margin-top: 10px;
+  width: 100%; 
+}
+
+div#registro { 
+  background-color: white; 
+  border: solid 1px white; 
+  float:right; 
+  height: 150px; 
+  margin-top: 10px;
+  width: 150px; 
+}
+
+div#registro p { 
+  font-size: 80%; 
+  text-align: center; 
+}
+
+p.rayas { 
+  border: dashed 2px black ; 
+  font-size: 80%; 
+  margin: 0px 20px; 
+  padding: 5px; 
+  color: #fff;
+  border-color: #fff;
+}
+
+p.final { 
+  font-weight: bold;
+  letter-spacing: 5px; 
+  margin-top: 10px;
+  text-align: center; 
+  text-transform: uppercase; 
+  color: #fff;
+}

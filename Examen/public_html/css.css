@@ -1,0 +1,46 @@
+body { 
+  font-family: "Segoe UI";
+}
+table{
+     background-color: #00a5db;
+     color: #FFF;
+     max-width: 70em;
+     width: 50%;
+     max-height: 48em;
+     height: 100%;
+     text-align: justify;
+     padding-top: 50px;
+     padding-left: 3%;
+     padding-right: 2.5%;
+    
+}
+select{
+    color: #FFF;
+    background-image: linear-gradient( rgba(255,255,255,1) 0%, rgba(0,165,219,1) 5%, rgba(0,165,219,1) 20%, rgba(2,127,182,1) 50%, rgba(0,165,219,1) 80%, rgba(0,165,219,1) 95%, rgba(255,255,255,1) 100%);
+    width: 253px;
+    border-bottom: 1px solid #FFF;
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+    border-top: 1px solid #FFF;
+    font-weight: bold;
+}
+
+input{
+    background-color: #00a5db;
+    border-bottom: 2px solid #FFF;
+    border-left: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    border-top: 2px solid #FFF;
+    color: #027fb6;
+    width: 245px;
+    font-style: italic;
+    font-weight: bold;
+}
+textArea{
+    background-color: #00a5db;
+    border-color: #FFF;
+}
+td{
+    font-weight: bold;
+    font-size: 15px;
+}
